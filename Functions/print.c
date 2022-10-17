@@ -2,6 +2,11 @@
 
 int main() {
   /*
+   * Print function takes in stuff and may contain %s
+   * which takes in a string argument UP TO TRAILING '\0'
+   */
+
+  /*
    * Basic syntax of printf:
    * printf(format string, val...)
    *
@@ -32,6 +37,13 @@ int main() {
   printf("%5.2f\n", smolf);
   printf("%-5.2f\n", smolf);
   printf("%05.2f\n", smolf);
+
+  /*
+   * Variations:
+   * fprintf(): used to print to a file, similar to fputs
+   * sprintf(): used to print to a string, from a string
+   */
+
 
   return 0;
 }
