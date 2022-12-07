@@ -33,6 +33,11 @@ int main(int argc, char **argv) {
   printf("First: %d\tSecond: %d\n", B1[0], B1[19]);
   printf("First: %d\tSecond: %d\n", B2[0], B2[19]);
   printf("First: %d\tSecond: %d\n", B3[0], B3[19]);
+  int j = 0;
+  for (int i = 0; i < 10; i++) {
+    j = i;
+  }
+  printf("%d", j);
 
   // int C[1] = {1,2,3};
   // Compiler error - compiler detects too many initial values

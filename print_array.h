@@ -1,0 +1,1 @@
+void print_int_array(int arr[], int length);
